@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone - 국립현대미술관</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- section 1 -->
+        <div class="container">
+            <header>
+                <div id="header_logo"><a href="#"><img src="img/logo.png" alt="header_logo"></a></div>
+                <nav id="header_right">
+                    <ul id="header_right_top">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">새소식</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">LANGUAGE</a></li>
+                    </ul>
+
+                    <div id="menu_bg"></div>
+
+                    <ul id="header_rigth_bot">
+                        <li class="main_menu">
+                            <a href="#">관람안내</a>
+                            <ul class="sub_menu">
+                                <li class="sub"><a href="#">서울</a></li>
+                                <li class="sub"><a href="#">과천</a></li>
+                                <li class="sub"><a href="#">덕수궁</a></li>
+                                <li class="sub"><a href="#">청주</a></li>
+                                <li class="sub"><a href="#">캘린더</a></li>
+                                <li class="sub"><a href="#">전시해설</a></li>
+                                <li class="sub"><a href="#">단체관람</a></li>
+                                <li class="sub"><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="main_menu">
+                            <a href="#">전시</a>
+                            <ul class="sub_menu">
+                                <li class="sub"><a href="#">전시</a></li>
+                                <li class="sub"><a href="#">필름앤비디오</a></li>
+                                <li class="sub"><a href="#">다원예술</a></li>
+                                <li class="sub"><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="main_menu">
+                            <a href="#">관람안내</a>
+                            <ul class="sub_menu">
+                                <li class="sub"><a href="#">미술관교육소개</a></li>
+                                <li class="sub"><a href="#">어린이미술관</a></li>
+                                <li class="sub"><a href="#">참여신청</a></li>
+                                <li class="sub"><a href="#">교육자료실</a></li>
+                                <li class="sub"><a href="#">교육사진</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="main_menu">
+                            <a href="#">관람안내</a>
+                            <ul class="sub_menu">
+                                <li class="sub"><a href="#">고화질 보기</a></li>
+                                <li class="sub"><a href="#">소장품 검색</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="main_menu">
+                            <a href="#">관람안내</a>
+                            <ul class="sub_menu">
+                                <li class="sub"><a href="#">연구와 출판</a></li>
+                                <li class="sub"><a href="#">아카이브와 도서</a></li>
+                                <li class="sub"><a href="#">MMCA 연구</a></li>
+                                <li class="sub"><a href="#">레지던시</a></li>
+                                <li class="sub"><a href="#">보존과학</a></li>
+                                <li class="sub"><a href="#">출판</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- header End -->
+
+
+            <p id="sec1_name">
+                국립 현대 미술관에서는<br />지금 _____
+            </p>
+
+            <article id="sec1_top_box">
+                <div id="sec1_top_leftbox">
+                    <div id="sec1_top_left_img">
+                        <!-- 배경으로 이미지 넣을때는 css로 넣어주기 -->
+                        <span id="sec_1_first_img_date">청주 | 2021.01.26 ~ 2021.05.09</span>
+                        <span id="sec_1_first_img_name">탄생 100주년 기념-박래현, 삼중통역사</span>
+                    </div>
+
+                    <div id="sec1_top_left_midimg">
+                        <span id="sec_1_second_img_name">2020-2021 특별 수장고<br />'국립 현대 미술관 드로잉 소장품'</span>
+                        <span id="sec_1_second_img_date">청주 | 2020.12.01 ~ 2021.10.31</span>
+                    </div>
+
+                    <div id="sec1_top_left_botimg">
+                        <!-- img 넣기 -->
+                    </div>
+                </div>
+                <!-- sec1_top_leftbox End -->
+
+                <div id="sec1_top_rightbox">
+                    <p id="sec1_top_right_text">
+                        국립 현대 미술관을 이웃집 같은 친근한 미술관!<br />친근하고, 개방적인 미술관! 체계적이고 신바람 나는 미술관으로<br />여러분을 만나겠습니다.
+                    </p>
+
+                    <div id="sec1_top_right_img_top">
+                        <span id="sec_1_third_img_date">청주 | 2020.12.22 ~ 2021.12.31</span>
+                        <span id="sec_1_third_img_name">미술은행.정부미술은행 소장품 기획전시<br />'풍경을 그려내는 법'</span>
+                    </div>
+
+
+                    <!-- Swiper -->
+                    <div class="swiper-container" id="sec_1_top_right_img_2">
+                        <div class="swiper-wrapper" id = "sec_1_top_right_wrapper"> 
+                            <div class="swiper-slide viewing_time_box">
+                                <div id="sec1_top_right_bot_title">
+                                    <h3 id="viewing_time">오늘 관람시간</h3>
+                                    <h5 id="viewing_time_small">TODAY OPEN HOURS</h5>
+                                </div>
+
+                                <div id="hour_box">
+                                    <div class="viewing_hour">
+                                        <a href="#">
+                                            <p class="hour_left">서울 10:00 ~ 18:00</p>
+                                            
+                                        </a>
+                                    </div>
+                                    <div class="viewing_hour">
+                                        <a href="#">
+                                            <p class="hour_left">과천 10:00 ~ 18:00</p>
+                                           
+                                        </a>
+                                    </div>
+                                    <div class="viewing_hour">
+                                        <a href="#">
+                                            <p class="hour_left">덕수궁 10:00 ~ 18:00</p>
+                                            
+                                        </a>
+                                    </div>
+                                    <div class="viewing_hour">
+                                        <a href="#">
+                                            <p class="hour_left">청주 10:00 ~ 18:00</p>
+                                            
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="swiper-slide viewing_time_box"><img src="img/swipe_slide_img_2.jpg"></div>
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('#sec_1_top_right_img_2', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: false,
+                            pagination: {
+                                el: '.swiper-pagination',
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                        });
+                    </script>
+
+                </div>
+            </article>
+            <!-- sec1_top_box End -->
+
+
+            <article id="sec1_bot_box">
+                <div id="sec1_bot_leftbox">
+                    <div id="sec1_bot_left_img_1"></div>
+
+                    <div id="sec1_bot_left_img_2">
+                        <div id="sec1_bot_left_img_2_text">
+                            <h4 id="sec1_bot_img_2_title">성인교육</h4>
+                            <p id="sec1_bot_img_2_content">일반 성인은 물론, 대학생/직장인/주부 등<br />
+                                대상별 특성을 고려한<br />미술관 전시 및 주요 콘텐츠 등<br />미술문화 확산을 위한 교육프로그램</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- sec1_box_leftbox End -->
+
+                <div id="sec1_bot_rightbox">
+                    <div id="sec1_bot_right_top_img">
+                        <div id="sec1_bot_right_top_text">
+                            <h2 id="sec1_bot_right_title">거리두기 관람 무료재개관</h2>
+                            <p id="sec1_bot_right_time">화요일 ~ 일요일 10:00~18:00</p>
+                            <p id="sec1_bot_right_time_small">(수요일/토요일 서울,덕수궁 야간개장 18:00~21:00)</p>
+                            <p id="sec1_bot_right_small_text">신분증 지참 및 마스크 착용 필수<br />
+                                국립 현대 미술관은 관별 코로나19 특별 방역을<br />주 1회 실시하고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div id="sec1_bot_right_mid_wrap">
+                        <div id="sec1_bot_right_mid_title"><img src="img/notice.png" alt="notice_title"></div>
+                        <div id="sec1_bot_right_mid_content_wrap">
+                            <div class="sec1_bot_right_mid_content">
+                                <a href="#">
+                                    [새소식] 2021년도 미술은행 공모제 응모기간 연장 안내
+                                </a>
+                            </div>
+                            <div class="sec1_bot_right_mid_content">
+                                <a href="#">
+                                    [새소식] 국립현대미술관 청주 라키비움 운영 임시중단
+                                </a>
+                            </div>
+                            <div class="sec1_bot_right_mid_content">
+                                <a href="#">
+                                    [새소식] 2021년 어린이 미술관 재개관 안내
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sec1_bot_right_bot_img">
+                        <div id="sec1_bot_right_bot_img_box"></div>
+                        <div id="sec1_bot_right_bot_title">
+                            <h2 id="sec1_bot_right_bot_title_left">어린이 / 가족 교육</h2>
+                            <span id="sec1_bot_right_bot_title_right"><a href="#">영상보기</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- sec1_box_rightbox End -->
+
+            </article>
+            <!-- sec1_bot_box End -->
+
+        </div>
+        <!-- container End -->
+
+        <!-- banner -->
+        <section id="banner">
+            <img src="img/big_banner.jpg" alt="banner_img">
+        </section>
+        <!-- banner End -->
+
+        <!-- section 2 -->
+        <div class="container">
+            <article id="sec2_top">
+                <div id="sec2_top_left">
+                    <h2 id="sec2_top_left_text">
+                        예술을 사랑하는<br />우리 모두가<br>함께 지켜야 할 약속<br />'뮤지엄 매너'
+                    </h2>
+                </div>
+                <!-- sec2_top_left End -->
+
+                <div id="sec2_top_right">
+                    '뮤지엄 매너'는 미술관 관람예절을 모두가 함께 생각하고 이야기하는<br />공공 캠페인입니다.
+                    예술을 사랑하는 우리 모두가 함께 지켜야 할 '약속'을<br />듣고싶습니다.
+                </div>
+                <!-- sec2_top_right End -->
+            </article>
+
+            <article id="sec2_bot">
+                <!-- Swiper -->
+                <div class="swiper-container" id="sec3_bot">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide sec3_bot_box">
+                            <div class="sec3_img"></div>
+                            <h3 class="swiper_h3">국립 현대 미술관 서울관</h3>
+                            <h4 class="swiper_h4">다양한 전시품들과 소장품들을 관람하고 문화시설들을<br />
+                                경험하실 수 있습니다.</h4>
+                        </div>
+                        <div class="swiper-slide sec3_bot_box">
+                            <div class="sec3_img"></div>
+                            <h3 class="swiper_h3">국립 현대 미술관 덕수궁관</h3>
+                            <h4 class="swiper_h4">덕수궁 관람과 함께 다양한 전시품들을<br />
+                                관람하실 수 있습니다.</h4>
+                        </div>
+                        <div class="swiper-slide sec3_bot_box">
+                            <div class="sec3_img"></div>
+                            <h3 class="swiper_h3">국립 현대 미술관 청주</h3>
+                            <h4 class="swiper_h4">다양한 수장고들과 보존과학실, 라키비움, 기획 전시실을<br />
+                                청주에서 경험해보실 수 있습니다.</h4>
+                        </div>
+                        <div class="swiper-slide sec3_bot_box">
+                            <div class="sec3_img"></div>
+                            <h3 class="swiper_h3">국립 현대 미술관 과천</h3>
+                            <h4 class="swiper_h4">생각중.........</h4>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="../package/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('#sec3_bot', {
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+            </article>
+        </div>
+        <!-- section 2 container End -->
+
+        <footer>
+            <div id="in_footer">
+                <div id="footer_left">logo</div>
+                <div id="footer_mid">
+                    <ul id="footer_menu">
+                        <li>이용약관</li>
+                        <li>개인정보처리방침</li>
+                        <li>저작권정책</li>
+                        <li>국민신문고</li>
+                        <li>정보공개</li>
+                    </ul>
+                    <ul id="footer_ceo">
+                        <li>대표자 : 윤범모</li>
+                        <li>사업자 등록번호 : 138-83-00313</li>
+                    </ul>
+
+                    <div id="number">대표 전화 (서울) 02-3701-9500, (과천) 02-2188-6000, (덕수궁) 02-2022-0600, (청주) 043-261-1400
+                    </div>
+
+                    <div id="copyright">Copyright (c)2018 National Museum of Modern and Contemporary Art, Korea All
+                        rights reserved.</div>
+                </div>
+                <div id="footer_right">
+                    <ul id="footer_right_top">
+                        <li>sns1</li>
+                        <li>sns2</li>
+                        <li>sns3</li>
+                    </ul>
+                    <ul id="footer_right_bot">
+                        <li>sns4</li>
+                        <li>sns5</li>
+                        <li>mark</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer End -->
+
+    </div>
+</body>
+
+</html>
